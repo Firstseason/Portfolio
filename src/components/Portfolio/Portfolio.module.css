@@ -1,0 +1,70 @@
+.port_con {
+    max-width: 1170px;
+    height: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+
+    & .port_title {
+        margin-top: 45px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        color: cyan;
+    }
+
+
+    & .port_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+
+        & .port_items {
+            margin-top: 60px;
+
+            & img {
+                width: 300px;
+                height: 300px;
+                border-radius: 20px;
+                object-fit: cover;
+            }
+
+            & p {
+                font-size: 16px;
+                font-weight: bold;
+                margin: 10px 0;
+                color: floralwhite;
+            }
+            & .hero_image {
+                width: 300px;
+                height: 300px;
+                border-radius: 100%;
+                background-image: url("https://plus.unsplash.com/premium_photo-1675188410128-08479b027489?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2F0fGVufDB8fDB8fHww");
+                background-size: cover;
+                background-position: center;
+                margin-right: 120px;
+              }
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .port_con {
+        height: auto;
+        margin: 30px 0;
+
+        & .port_list {
+            grid-template-columns: 1fr;
+            padding: 20px;
+
+            & .port_items {
+                width: 100%;
+
+                & img {
+                    width: 100%;
+                    
+                }
+            }
+        }
+    }
+    
+}
