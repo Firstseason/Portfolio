@@ -50,7 +50,7 @@ function Hero() {
           <div>
           <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
             <div className={styles.hero_image} >
-              <img src="https://drive.google.com/file/d/10L568-MDR1bplz8GTFKK68IiIZkB-xxP/view?usp=sharing" alt="profile" />
+              <img src="https://drive.google.com/file/d/1Q67zPXzWAUZgDXLRlz3zroXZlqJHCo5f/view?usp=drive_link" alt="profile" />
             </div>
             </Tilt>
           </div>
